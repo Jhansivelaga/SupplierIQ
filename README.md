@@ -28,6 +28,10 @@ SupplierIQ is a Java Spring Boot and MySQL project that analyzes supplier reliab
 | Data generation and validation | Python 3.10+ |
 | API style | REST |
 
+## Dashboard Preview
+
+![SupplierIQ Dashboard](screenshots/supplieriq-dashboard.png)
+
 ## Architecture Overview
 
 1. Synthetic procurement records are generated using a fixed random seed.
