@@ -1,0 +1,102 @@
+[
+  {
+    "risk_signal_id": "RSK-SUP-000001-2026-01",
+    "supplier_id": "SUP-000001",
+    "risk_type": "TRANSPORT",
+    "severity": "MEDIUM",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-02T00:00:00+00:00",
+    "expires_at": "2026-02-01T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000002-2026-01",
+    "supplier_id": "SUP-000002",
+    "risk_type": "FINANCIAL",
+    "severity": "HIGH",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-03T00:00:00+00:00",
+    "expires_at": "2026-02-02T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000003-2026-01",
+    "supplier_id": "SUP-000003",
+    "risk_type": "QUALITY",
+    "severity": "CRITICAL",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-04T00:00:00+00:00",
+    "expires_at": "2026-02-03T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000004-2026-01",
+    "supplier_id": "SUP-000004",
+    "risk_type": "CAPACITY",
+    "severity": "LOW",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-05T00:00:00+00:00",
+    "expires_at": "2026-02-04T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000005-2026-01",
+    "supplier_id": "SUP-000005",
+    "risk_type": "GEOPOLITICAL",
+    "severity": "MEDIUM",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-06T00:00:00+00:00",
+    "expires_at": "2026-02-05T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000006-2026-01",
+    "supplier_id": "SUP-000006",
+    "risk_type": "WEATHER",
+    "severity": "HIGH",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-07T00:00:00+00:00",
+    "expires_at": "2026-02-06T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000007-2026-01",
+    "supplier_id": "SUP-000007",
+    "risk_type": "TRANSPORT",
+    "severity": "CRITICAL",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-08T00:00:00+00:00",
+    "expires_at": "2026-02-07T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000008-2026-01",
+    "supplier_id": "SUP-000008",
+    "risk_type": "FINANCIAL",
+    "severity": "LOW",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-09T00:00:00+00:00",
+    "expires_at": "2026-02-08T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000009-2026-01",
+    "supplier_id": "SUP-000009",
+    "risk_type": "QUALITY",
+    "severity": "MEDIUM",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-10T00:00:00+00:00",
+    "expires_at": "2026-02-09T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  },
+  {
+    "risk_signal_id": "RSK-SUP-000010-2026-01",
+    "supplier_id": "SUP-000010",
+    "risk_type": "CAPACITY",
+    "severity": "HIGH",
+    "source": "SYNTHETIC_FEED",
+    "observed_at": "2026-01-11T00:00:00+00:00",
+    "expires_at": "2026-02-10T00:00:00+00:00",
+    "description": "Synthetic scenario risk signal"
+  }
+]

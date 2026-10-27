@@ -1,0 +1,2002 @@
+[
+  {
+    "inspection_id": "INS-2026-000001",
+    "po_id": "PO-2026-000001",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-06-07",
+    "sample_size": 11,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000002",
+    "po_id": "PO-2026-000002",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-18",
+    "sample_size": 12,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000003",
+    "po_id": "PO-2026-000003",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-26",
+    "sample_size": 13,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000004",
+    "po_id": "PO-2026-000004",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-03-15",
+    "sample_size": 14,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000005",
+    "po_id": "PO-2026-000005",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-01-18",
+    "sample_size": 15,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000006",
+    "po_id": "PO-2026-000006",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-02-04",
+    "sample_size": 16,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000007",
+    "po_id": "PO-2026-000007",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-03-12",
+    "sample_size": 17,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000008",
+    "po_id": "PO-2026-000008",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-07-06",
+    "sample_size": 18,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000009",
+    "po_id": "PO-2026-000009",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-03",
+    "sample_size": 19,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000010",
+    "po_id": "PO-2026-000010",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-08-10",
+    "sample_size": 20,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000011",
+    "po_id": "PO-2026-000011",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-05-30",
+    "sample_size": 21,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000012",
+    "po_id": "PO-2026-000012",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-03-18",
+    "sample_size": 22,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000013",
+    "po_id": "PO-2026-000013",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-25",
+    "sample_size": 23,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000014",
+    "po_id": "PO-2026-000014",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-04-30",
+    "sample_size": 24,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000015",
+    "po_id": "PO-2026-000015",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-06-26",
+    "sample_size": 25,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000016",
+    "po_id": "PO-2026-000016",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-05-31",
+    "sample_size": 26,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000017",
+    "po_id": "PO-2026-000017",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-02-16",
+    "sample_size": 27,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000018",
+    "po_id": "PO-2026-000018",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-03-12",
+    "sample_size": 28,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000019",
+    "po_id": "PO-2026-000019",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-21",
+    "sample_size": 29,
+    "defect_rate": "0.0200",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000020",
+    "po_id": "PO-2026-000020",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-06-13",
+    "sample_size": 30,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000021",
+    "po_id": "PO-2026-000021",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-05-21",
+    "sample_size": 31,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000022",
+    "po_id": "PO-2026-000022",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-02-05",
+    "sample_size": 32,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000023",
+    "po_id": "PO-2026-000023",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-05",
+    "sample_size": 33,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000024",
+    "po_id": "PO-2026-000024",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-09-17",
+    "sample_size": 34,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000025",
+    "po_id": "PO-2026-000025",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-07",
+    "sample_size": 35,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000026",
+    "po_id": "PO-2026-000026",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-20",
+    "sample_size": 36,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000027",
+    "po_id": "PO-2026-000027",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-02-23",
+    "sample_size": 37,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000028",
+    "po_id": "PO-2026-000028",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-09-17",
+    "sample_size": 38,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000029",
+    "po_id": "PO-2026-000029",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-07",
+    "sample_size": 39,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000030",
+    "po_id": "PO-2026-000030",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-09-10",
+    "sample_size": 40,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000031",
+    "po_id": "PO-2026-000031",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-04-24",
+    "sample_size": 41,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000032",
+    "po_id": "PO-2026-000032",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-04-08",
+    "sample_size": 42,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000033",
+    "po_id": "PO-2026-000033",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-25",
+    "sample_size": 43,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000034",
+    "po_id": "PO-2026-000034",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-02-14",
+    "sample_size": 44,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000035",
+    "po_id": "PO-2026-000035",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-03-25",
+    "sample_size": 45,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000036",
+    "po_id": "PO-2026-000036",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-06-01",
+    "sample_size": 46,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000037",
+    "po_id": "PO-2026-000037",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-08-09",
+    "sample_size": 47,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000038",
+    "po_id": "PO-2026-000038",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-05-07",
+    "sample_size": 48,
+    "defect_rate": "0.0400",
+    "result": "CONDITIONAL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000039",
+    "po_id": "PO-2026-000039",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-21",
+    "sample_size": 49,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000040",
+    "po_id": "PO-2026-000040",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-01-23",
+    "sample_size": 50,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000041",
+    "po_id": "PO-2026-000041",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-01-19",
+    "sample_size": 51,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000042",
+    "po_id": "PO-2026-000042",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-26",
+    "sample_size": 52,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000043",
+    "po_id": "PO-2026-000043",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-07-26",
+    "sample_size": 53,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000044",
+    "po_id": "PO-2026-000044",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-04-03",
+    "sample_size": 54,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000045",
+    "po_id": "PO-2026-000045",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-07-24",
+    "sample_size": 55,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000046",
+    "po_id": "PO-2026-000046",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-08-27",
+    "sample_size": 56,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000047",
+    "po_id": "PO-2026-000047",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-05-21",
+    "sample_size": 57,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000048",
+    "po_id": "PO-2026-000048",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-08-28",
+    "sample_size": 58,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000049",
+    "po_id": "PO-2026-000049",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-02",
+    "sample_size": 59,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000050",
+    "po_id": "PO-2026-000050",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-06-30",
+    "sample_size": 10,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000051",
+    "po_id": "PO-2026-000051",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-09-09",
+    "sample_size": 11,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000052",
+    "po_id": "PO-2026-000052",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-07-27",
+    "sample_size": 12,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000053",
+    "po_id": "PO-2026-000053",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-02",
+    "sample_size": 13,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000054",
+    "po_id": "PO-2026-000054",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-16",
+    "sample_size": 14,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000055",
+    "po_id": "PO-2026-000055",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-25",
+    "sample_size": 15,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000056",
+    "po_id": "PO-2026-000056",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-19",
+    "sample_size": 16,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000057",
+    "po_id": "PO-2026-000057",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-07-27",
+    "sample_size": 17,
+    "defect_rate": "0.0600",
+    "result": "CONDITIONAL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000058",
+    "po_id": "PO-2026-000058",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-07-17",
+    "sample_size": 18,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000059",
+    "po_id": "PO-2026-000059",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-04-17",
+    "sample_size": 19,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000060",
+    "po_id": "PO-2026-000060",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-04-14",
+    "sample_size": 20,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000061",
+    "po_id": "PO-2026-000061",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-08-12",
+    "sample_size": 21,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000062",
+    "po_id": "PO-2026-000062",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-07-14",
+    "sample_size": 22,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000063",
+    "po_id": "PO-2026-000063",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-02-28",
+    "sample_size": 23,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000064",
+    "po_id": "PO-2026-000064",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-24",
+    "sample_size": 24,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000065",
+    "po_id": "PO-2026-000065",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-17",
+    "sample_size": 25,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000066",
+    "po_id": "PO-2026-000066",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-05-15",
+    "sample_size": 26,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000067",
+    "po_id": "PO-2026-000067",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-07-06",
+    "sample_size": 27,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000068",
+    "po_id": "PO-2026-000068",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-02-02",
+    "sample_size": 28,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000069",
+    "po_id": "PO-2026-000069",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-07-22",
+    "sample_size": 29,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000070",
+    "po_id": "PO-2026-000070",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-07-26",
+    "sample_size": 30,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000071",
+    "po_id": "PO-2026-000071",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-08-21",
+    "sample_size": 31,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000072",
+    "po_id": "PO-2026-000072",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-13",
+    "sample_size": 32,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000073",
+    "po_id": "PO-2026-000073",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-14",
+    "sample_size": 33,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000074",
+    "po_id": "PO-2026-000074",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-03-05",
+    "sample_size": 34,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000075",
+    "po_id": "PO-2026-000075",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-03-31",
+    "sample_size": 35,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000076",
+    "po_id": "PO-2026-000076",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-04",
+    "sample_size": 36,
+    "defect_rate": "0.0800",
+    "result": "CONDITIONAL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000077",
+    "po_id": "PO-2026-000077",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-06-09",
+    "sample_size": 37,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000078",
+    "po_id": "PO-2026-000078",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-02-25",
+    "sample_size": 38,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000079",
+    "po_id": "PO-2026-000079",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-05-19",
+    "sample_size": 39,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000080",
+    "po_id": "PO-2026-000080",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-08-20",
+    "sample_size": 40,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000081",
+    "po_id": "PO-2026-000081",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-03-31",
+    "sample_size": 41,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000082",
+    "po_id": "PO-2026-000082",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-06-16",
+    "sample_size": 42,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000083",
+    "po_id": "PO-2026-000083",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-16",
+    "sample_size": 43,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000084",
+    "po_id": "PO-2026-000084",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-07-19",
+    "sample_size": 44,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000085",
+    "po_id": "PO-2026-000085",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-04-25",
+    "sample_size": 45,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000086",
+    "po_id": "PO-2026-000086",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-02-05",
+    "sample_size": 46,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000087",
+    "po_id": "PO-2026-000087",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-03-02",
+    "sample_size": 47,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000088",
+    "po_id": "PO-2026-000088",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-05-29",
+    "sample_size": 48,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000089",
+    "po_id": "PO-2026-000089",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-09-18",
+    "sample_size": 49,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000090",
+    "po_id": "PO-2026-000090",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-02-13",
+    "sample_size": 50,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000091",
+    "po_id": "PO-2026-000091",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-09-22",
+    "sample_size": 51,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000092",
+    "po_id": "PO-2026-000092",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-05-23",
+    "sample_size": 52,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000093",
+    "po_id": "PO-2026-000093",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-09-18",
+    "sample_size": 53,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000094",
+    "po_id": "PO-2026-000094",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-09",
+    "sample_size": 54,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000095",
+    "po_id": "PO-2026-000095",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-02",
+    "sample_size": 55,
+    "defect_rate": "0.1000",
+    "result": "FAIL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000096",
+    "po_id": "PO-2026-000096",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-09-16",
+    "sample_size": 56,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000097",
+    "po_id": "PO-2026-000097",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-04-27",
+    "sample_size": 57,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000098",
+    "po_id": "PO-2026-000098",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-08-29",
+    "sample_size": 58,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000099",
+    "po_id": "PO-2026-000099",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-17",
+    "sample_size": 59,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000100",
+    "po_id": "PO-2026-000100",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-07-05",
+    "sample_size": 10,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000101",
+    "po_id": "PO-2026-000001",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-06-07",
+    "sample_size": 11,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000102",
+    "po_id": "PO-2026-000002",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-18",
+    "sample_size": 12,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000103",
+    "po_id": "PO-2026-000003",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-26",
+    "sample_size": 13,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000104",
+    "po_id": "PO-2026-000004",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-03-15",
+    "sample_size": 14,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000105",
+    "po_id": "PO-2026-000005",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-01-18",
+    "sample_size": 15,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000106",
+    "po_id": "PO-2026-000006",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-02-04",
+    "sample_size": 16,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000107",
+    "po_id": "PO-2026-000007",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-03-12",
+    "sample_size": 17,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000108",
+    "po_id": "PO-2026-000008",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-07-06",
+    "sample_size": 18,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000109",
+    "po_id": "PO-2026-000009",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-03",
+    "sample_size": 19,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000110",
+    "po_id": "PO-2026-000010",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-08-10",
+    "sample_size": 20,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000111",
+    "po_id": "PO-2026-000011",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-05-30",
+    "sample_size": 21,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000112",
+    "po_id": "PO-2026-000012",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-03-18",
+    "sample_size": 22,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000113",
+    "po_id": "PO-2026-000013",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-25",
+    "sample_size": 23,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000114",
+    "po_id": "PO-2026-000014",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-04-30",
+    "sample_size": 24,
+    "defect_rate": "0.1200",
+    "result": "FAIL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000115",
+    "po_id": "PO-2026-000015",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-06-26",
+    "sample_size": 25,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000116",
+    "po_id": "PO-2026-000016",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-05-31",
+    "sample_size": 26,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000117",
+    "po_id": "PO-2026-000017",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-02-16",
+    "sample_size": 27,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000118",
+    "po_id": "PO-2026-000018",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-03-12",
+    "sample_size": 28,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000119",
+    "po_id": "PO-2026-000019",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-21",
+    "sample_size": 29,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000120",
+    "po_id": "PO-2026-000020",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-06-13",
+    "sample_size": 30,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000121",
+    "po_id": "PO-2026-000021",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-05-21",
+    "sample_size": 31,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000122",
+    "po_id": "PO-2026-000022",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-02-05",
+    "sample_size": 32,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000123",
+    "po_id": "PO-2026-000023",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-05",
+    "sample_size": 33,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000124",
+    "po_id": "PO-2026-000024",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-09-17",
+    "sample_size": 34,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000125",
+    "po_id": "PO-2026-000025",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-07",
+    "sample_size": 35,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000126",
+    "po_id": "PO-2026-000026",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-20",
+    "sample_size": 36,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000127",
+    "po_id": "PO-2026-000027",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-02-23",
+    "sample_size": 37,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000128",
+    "po_id": "PO-2026-000028",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-09-17",
+    "sample_size": 38,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000129",
+    "po_id": "PO-2026-000029",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-07",
+    "sample_size": 39,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000130",
+    "po_id": "PO-2026-000030",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-09-10",
+    "sample_size": 40,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000131",
+    "po_id": "PO-2026-000031",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-04-24",
+    "sample_size": 41,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000132",
+    "po_id": "PO-2026-000032",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-04-08",
+    "sample_size": 42,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000133",
+    "po_id": "PO-2026-000033",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-25",
+    "sample_size": 43,
+    "defect_rate": "0.1400",
+    "result": "FAIL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000134",
+    "po_id": "PO-2026-000034",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-02-14",
+    "sample_size": 44,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000135",
+    "po_id": "PO-2026-000035",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-03-25",
+    "sample_size": 45,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000136",
+    "po_id": "PO-2026-000036",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-06-01",
+    "sample_size": 46,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000137",
+    "po_id": "PO-2026-000037",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-08-09",
+    "sample_size": 47,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000138",
+    "po_id": "PO-2026-000038",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-05-07",
+    "sample_size": 48,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000139",
+    "po_id": "PO-2026-000039",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-08-21",
+    "sample_size": 49,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000140",
+    "po_id": "PO-2026-000040",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-01-23",
+    "sample_size": 50,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000141",
+    "po_id": "PO-2026-000041",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-01-19",
+    "sample_size": 51,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000142",
+    "po_id": "PO-2026-000042",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-26",
+    "sample_size": 52,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000143",
+    "po_id": "PO-2026-000043",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-07-26",
+    "sample_size": 53,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000144",
+    "po_id": "PO-2026-000044",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-04-03",
+    "sample_size": 54,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000145",
+    "po_id": "PO-2026-000045",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-07-24",
+    "sample_size": 55,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000146",
+    "po_id": "PO-2026-000046",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-08-27",
+    "sample_size": 56,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000147",
+    "po_id": "PO-2026-000047",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-05-21",
+    "sample_size": 57,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000148",
+    "po_id": "PO-2026-000048",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-08-28",
+    "sample_size": 58,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000149",
+    "po_id": "PO-2026-000049",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-02",
+    "sample_size": 59,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000150",
+    "po_id": "PO-2026-000050",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-06-30",
+    "sample_size": 10,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000151",
+    "po_id": "PO-2026-000051",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-09-09",
+    "sample_size": 11,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000152",
+    "po_id": "PO-2026-000052",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-07-27",
+    "sample_size": 12,
+    "defect_rate": "0.1600",
+    "result": "FAIL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000153",
+    "po_id": "PO-2026-000053",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-02",
+    "sample_size": 13,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000154",
+    "po_id": "PO-2026-000054",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-16",
+    "sample_size": 14,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000155",
+    "po_id": "PO-2026-000055",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-25",
+    "sample_size": 15,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000156",
+    "po_id": "PO-2026-000056",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-19",
+    "sample_size": 16,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000157",
+    "po_id": "PO-2026-000057",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-07-27",
+    "sample_size": 17,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000158",
+    "po_id": "PO-2026-000058",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-07-17",
+    "sample_size": 18,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000159",
+    "po_id": "PO-2026-000059",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-04-17",
+    "sample_size": 19,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000160",
+    "po_id": "PO-2026-000060",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-04-14",
+    "sample_size": 20,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000161",
+    "po_id": "PO-2026-000061",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-08-12",
+    "sample_size": 21,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000162",
+    "po_id": "PO-2026-000062",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-07-14",
+    "sample_size": 22,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000163",
+    "po_id": "PO-2026-000063",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-02-28",
+    "sample_size": 23,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000164",
+    "po_id": "PO-2026-000064",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-24",
+    "sample_size": 24,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000165",
+    "po_id": "PO-2026-000065",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-17",
+    "sample_size": 25,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000166",
+    "po_id": "PO-2026-000066",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-05-15",
+    "sample_size": 26,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000167",
+    "po_id": "PO-2026-000067",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-07-06",
+    "sample_size": 27,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000168",
+    "po_id": "PO-2026-000068",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-02-02",
+    "sample_size": 28,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000169",
+    "po_id": "PO-2026-000069",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-07-22",
+    "sample_size": 29,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000170",
+    "po_id": "PO-2026-000070",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-07-26",
+    "sample_size": 30,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000171",
+    "po_id": "PO-2026-000071",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-08-21",
+    "sample_size": 31,
+    "defect_rate": "0.0100",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000172",
+    "po_id": "PO-2026-000072",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-08-13",
+    "sample_size": 32,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000173",
+    "po_id": "PO-2026-000073",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-05-14",
+    "sample_size": 33,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000174",
+    "po_id": "PO-2026-000074",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-03-05",
+    "sample_size": 34,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000175",
+    "po_id": "PO-2026-000075",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-03-31",
+    "sample_size": 35,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000176",
+    "po_id": "PO-2026-000076",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-07-04",
+    "sample_size": 36,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000177",
+    "po_id": "PO-2026-000077",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-06-09",
+    "sample_size": 37,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000178",
+    "po_id": "PO-2026-000078",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-02-25",
+    "sample_size": 38,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000179",
+    "po_id": "PO-2026-000079",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-05-19",
+    "sample_size": 39,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000180",
+    "po_id": "PO-2026-000080",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-08-20",
+    "sample_size": 40,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000181",
+    "po_id": "PO-2026-000081",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-03-31",
+    "sample_size": 41,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000182",
+    "po_id": "PO-2026-000082",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-06-16",
+    "sample_size": 42,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000183",
+    "po_id": "PO-2026-000083",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-01-16",
+    "sample_size": 43,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000184",
+    "po_id": "PO-2026-000084",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-07-19",
+    "sample_size": 44,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000185",
+    "po_id": "PO-2026-000085",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-04-25",
+    "sample_size": 45,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000186",
+    "po_id": "PO-2026-000086",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-02-05",
+    "sample_size": 46,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000187",
+    "po_id": "PO-2026-000087",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-03-02",
+    "sample_size": 47,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000188",
+    "po_id": "PO-2026-000088",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-05-29",
+    "sample_size": 48,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000189",
+    "po_id": "PO-2026-000089",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-09-18",
+    "sample_size": 49,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000190",
+    "po_id": "PO-2026-000090",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-02-13",
+    "sample_size": 50,
+    "defect_rate": "0.0300",
+    "result": "CONDITIONAL",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000191",
+    "po_id": "PO-2026-000091",
+    "supplier_id": "SUP-000001",
+    "inspection_date": "2026-09-22",
+    "sample_size": 51,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000192",
+    "po_id": "PO-2026-000092",
+    "supplier_id": "SUP-000002",
+    "inspection_date": "2026-05-23",
+    "sample_size": 52,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000193",
+    "po_id": "PO-2026-000093",
+    "supplier_id": "SUP-000003",
+    "inspection_date": "2026-09-18",
+    "sample_size": 53,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000194",
+    "po_id": "PO-2026-000094",
+    "supplier_id": "SUP-000004",
+    "inspection_date": "2026-05-09",
+    "sample_size": 54,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000195",
+    "po_id": "PO-2026-000095",
+    "supplier_id": "SUP-000005",
+    "inspection_date": "2026-05-02",
+    "sample_size": 55,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000196",
+    "po_id": "PO-2026-000096",
+    "supplier_id": "SUP-000006",
+    "inspection_date": "2026-09-16",
+    "sample_size": 56,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000197",
+    "po_id": "PO-2026-000097",
+    "supplier_id": "SUP-000007",
+    "inspection_date": "2026-04-27",
+    "sample_size": 57,
+    "defect_rate": "0.0010",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000198",
+    "po_id": "PO-2026-000098",
+    "supplier_id": "SUP-000008",
+    "inspection_date": "2026-08-29",
+    "sample_size": 58,
+    "defect_rate": "0.0020",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000199",
+    "po_id": "PO-2026-000099",
+    "supplier_id": "SUP-000009",
+    "inspection_date": "2026-02-17",
+    "sample_size": 59,
+    "defect_rate": "0.0030",
+    "result": "PASS",
+    "source": "GENERATOR"
+  },
+  {
+    "inspection_id": "INS-2026-000200",
+    "po_id": "PO-2026-000100",
+    "supplier_id": "SUP-000010",
+    "inspection_date": "2026-07-05",
+    "sample_size": 10,
+    "defect_rate": "0.0000",
+    "result": "PASS",
+    "source": "GENERATOR"
+  }
+]

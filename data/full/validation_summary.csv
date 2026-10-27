@@ -1,0 +1,38 @@
+check,status,details
+suppliers.csv: row count,PASS,1000
+suppliers.csv: primary-key uniqueness,PASS,1000 rows; 1000 unique IDs
+sites.csv: row count,PASS,1423
+sites.csv: primary-key uniqueness,PASS,1423 rows; 1423 unique IDs
+contracts.csv: row count,PASS,1000
+contracts.csv: primary-key uniqueness,PASS,1000 rows; 1000 unique IDs
+purchase_orders.csv: row count,PASS,10000
+purchase_orders.csv: primary-key uniqueness,PASS,10000 rows; 10000 unique IDs
+po_lines.csv: row count,PASS,10000
+po_lines.csv: primary-key uniqueness,PASS,10000 rows; 10000 unique IDs
+shipments.csv: row count,PASS,15000
+shipments.csv: primary-key uniqueness,PASS,15000 rows; 15000 unique IDs
+delivery_events.csv: row count,PASS,30000
+delivery_events.csv: primary-key uniqueness,PASS,30000 rows; 30000 unique IDs
+inspections.csv: row count,PASS,20000
+inspections.csv: primary-key uniqueness,PASS,20000 rows; 20000 unique IDs
+invoices.csv: row count,PASS,10000
+invoices.csv: primary-key uniqueness,PASS,10000 rows; 10000 unique IDs
+risk_signals.csv: row count,PASS,966
+risk_signals.csv: primary-key uniqueness,PASS,966 rows; 966 unique IDs
+supplier_scores.csv: row count,PASS,1000
+supplier_scores.csv: primary-key uniqueness,PASS,1000 rows; 1000 unique IDs
+state_events.csv: row count,PASS,1000
+state_events.csv: primary-key uniqueness,PASS,1000 rows; 1000 unique IDs
+PO supplier FK,PASS,baseline dataset validation
+PO site FK,PASS,baseline dataset validation
+PO contract FK,PASS,baseline dataset validation
+PO date order,PASS,baseline dataset validation
+shipment PO FK,PASS,baseline dataset validation
+shipment supplier/site consistency,PASS,baseline dataset validation
+shipment date order,PASS,baseline dataset validation
+delivery event shipment FK,PASS,baseline dataset validation
+inspection PO FK,PASS,baseline dataset validation
+inspection defect-rate bounds,PASS,baseline dataset validation
+invoice arithmetic,PASS,baseline dataset validation
+PO line arithmetic,PASS,baseline dataset validation
+score weights sum to 1,PASS,baseline dataset validation

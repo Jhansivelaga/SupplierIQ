@@ -1,0 +1,112 @@
+[
+  {
+    "contract_id": "CON-000001-2026-01",
+    "supplier_id": "SUP-000001",
+    "contract_name": "SUP-000001 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 45,
+    "max_value": 60000
+  },
+  {
+    "contract_id": "CON-000002-2026-01",
+    "supplier_id": "SUP-000002",
+    "contract_name": "SUP-000002 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 60,
+    "max_value": 70000
+  },
+  {
+    "contract_id": "CON-000003-2026-01",
+    "supplier_id": "SUP-000003",
+    "contract_name": "SUP-000003 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 30,
+    "max_value": 80000
+  },
+  {
+    "contract_id": "CON-000004-2026-01",
+    "supplier_id": "SUP-000004",
+    "contract_name": "SUP-000004 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 45,
+    "max_value": 90000
+  },
+  {
+    "contract_id": "CON-000005-2026-01",
+    "supplier_id": "SUP-000005",
+    "contract_name": "SUP-000005 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 60,
+    "max_value": 100000
+  },
+  {
+    "contract_id": "CON-000006-2026-01",
+    "supplier_id": "SUP-000006",
+    "contract_name": "SUP-000006 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 30,
+    "max_value": 110000
+  },
+  {
+    "contract_id": "CON-000007-2026-01",
+    "supplier_id": "SUP-000007",
+    "contract_name": "SUP-000007 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 45,
+    "max_value": 120000
+  },
+  {
+    "contract_id": "CON-000008-2026-01",
+    "supplier_id": "SUP-000008",
+    "contract_name": "SUP-000008 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 60,
+    "max_value": 130000
+  },
+  {
+    "contract_id": "CON-000009-2026-01",
+    "supplier_id": "SUP-000009",
+    "contract_name": "SUP-000009 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 30,
+    "max_value": 140000
+  },
+  {
+    "contract_id": "CON-000010-2026-01",
+    "supplier_id": "SUP-000010",
+    "contract_name": "SUP-000010 Annual Contract",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "status": "ACTIVE",
+    "currency": "USD",
+    "payment_terms_days": 45,
+    "max_value": 150000
+  }
+]

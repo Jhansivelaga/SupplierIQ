@@ -1,0 +1,2 @@
+score_id,supplier_id,as_of_date,source_observation_time,issue_type
+SCORE-ANOM-000001,SUP-000001,2026-01-01,2026-02-01,FUTURE_DATA_LEAKAGE

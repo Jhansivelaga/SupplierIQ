@@ -1,0 +1,8 @@
+target/
+data/*.csv
+data/*.txt
+.idea/
+.vscode/
+*.iml
+
+tools/__pycache__/

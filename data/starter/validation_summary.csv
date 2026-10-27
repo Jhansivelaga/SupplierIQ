@@ -1,0 +1,38 @@
+check,status,details
+suppliers.csv: row count,PASS,10
+suppliers.csv: primary-key uniqueness,PASS,10 rows; 10 unique IDs
+sites.csv: row count,PASS,13
+sites.csv: primary-key uniqueness,PASS,13 rows; 13 unique IDs
+contracts.csv: row count,PASS,10
+contracts.csv: primary-key uniqueness,PASS,10 rows; 10 unique IDs
+purchase_orders.csv: row count,PASS,100
+purchase_orders.csv: primary-key uniqueness,PASS,100 rows; 100 unique IDs
+po_lines.csv: row count,PASS,100
+po_lines.csv: primary-key uniqueness,PASS,100 rows; 100 unique IDs
+shipments.csv: row count,PASS,150
+shipments.csv: primary-key uniqueness,PASS,150 rows; 150 unique IDs
+delivery_events.csv: row count,PASS,300
+delivery_events.csv: primary-key uniqueness,PASS,300 rows; 300 unique IDs
+inspections.csv: row count,PASS,200
+inspections.csv: primary-key uniqueness,PASS,200 rows; 200 unique IDs
+invoices.csv: row count,PASS,100
+invoices.csv: primary-key uniqueness,PASS,100 rows; 100 unique IDs
+risk_signals.csv: row count,PASS,10
+risk_signals.csv: primary-key uniqueness,PASS,10 rows; 10 unique IDs
+supplier_scores.csv: row count,PASS,10
+supplier_scores.csv: primary-key uniqueness,PASS,10 rows; 10 unique IDs
+state_events.csv: row count,PASS,10
+state_events.csv: primary-key uniqueness,PASS,10 rows; 10 unique IDs
+PO supplier FK,PASS,baseline dataset validation
+PO site FK,PASS,baseline dataset validation
+PO contract FK,PASS,baseline dataset validation
+PO date order,PASS,baseline dataset validation
+shipment PO FK,PASS,baseline dataset validation
+shipment supplier/site consistency,PASS,baseline dataset validation
+shipment date order,PASS,baseline dataset validation
+delivery event shipment FK,PASS,baseline dataset validation
+inspection PO FK,PASS,baseline dataset validation
+inspection defect-rate bounds,PASS,baseline dataset validation
+invoice arithmetic,PASS,baseline dataset validation
+PO line arithmetic,PASS,baseline dataset validation
+score weights sum to 1,PASS,baseline dataset validation

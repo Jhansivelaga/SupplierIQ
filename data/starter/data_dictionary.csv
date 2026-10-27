@@ -1,0 +1,104 @@
+entity,field,type,required,allowed_values,units,unique,validation_rule
+suppliers,supplier_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+suppliers,supplier_name,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+suppliers,status,VARCHAR,YES,"ACTIVE,SUSPENDED,INACTIVE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+suppliers,tier,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+suppliers,country,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+suppliers,created_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+suppliers,currency,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+suppliers,source_system,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+sites,site_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+sites,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+sites,site_name,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+sites,country,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+sites,is_primary,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+sites,valid_from,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+sites,valid_to,VARCHAR,NO,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+contracts,contract_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+contracts,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+contracts,contract_name,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+contracts,start_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+contracts,end_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+contracts,status,VARCHAR,YES,"ACTIVE,SUSPENDED,INACTIVE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+contracts,currency,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+contracts,payment_terms_days,DECIMAL,YES,,days,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+contracts,max_value,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+purchase_orders,po_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+purchase_orders,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+purchase_orders,site_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+purchase_orders,contract_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+purchase_orders,order_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+purchase_orders,expected_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+purchase_orders,currency,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+purchase_orders,status,VARCHAR,YES,"ACTIVE,SUSPENDED,INACTIVE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+purchase_orders,total_quantity,DECIMAL,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+purchase_orders,total_amount,DECIMAL,YES,,USD,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+po_lines,po_line_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+po_lines,po_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+po_lines,line_number,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+po_lines,item_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+po_lines,quantity_ordered,DECIMAL,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+po_lines,unit_price,DECIMAL,YES,,USD,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+po_lines,line_total,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+shipments,shipment_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+shipments,po_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+shipments,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+shipments,site_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+shipments,dispatch_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+shipments,delivery_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+shipments,quantity_shipped,DECIMAL,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+shipments,status,VARCHAR,YES,"ACTIVE,SUSPENDED,INACTIVE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+shipments,carrier,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+delivery_events,delivery_event_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+delivery_events,shipment_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+delivery_events,event_type,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+delivery_events,event_time,TIMESTAMP,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+delivery_events,location,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+delivery_events,source,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+inspections,inspection_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+inspections,po_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+inspections,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+inspections,inspection_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+inspections,sample_size,DECIMAL,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+inspections,defect_rate,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+inspections,result,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+inspections,source,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+invoices,invoice_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+invoices,po_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+invoices,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+invoices,invoice_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+invoices,po_amount,DECIMAL,YES,,USD,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+invoices,invoice_amount,DECIMAL,YES,,USD,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+invoices,variance_amount,DECIMAL,YES,,USD,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+invoices,variance_pct,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+invoices,status,VARCHAR,YES,"ACTIVE,SUSPENDED,INACTIVE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+invoices,currency,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+risk_signals,risk_signal_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+risk_signals,supplier_id,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+risk_signals,risk_type,VARCHAR,YES,"WEATHER,TRANSPORT,FINANCIAL,QUALITY,CAPACITY,GEOPOLITICAL",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+risk_signals,severity,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+risk_signals,source,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+risk_signals,observed_at,TIMESTAMP,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+risk_signals,expires_at,TIMESTAMP,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+risk_signals,description,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+supplier_scores,score_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+supplier_scores,supplier_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings. Foreign-key ownership and join consistency must pass.
+supplier_scores,as_of_date,DATE,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+supplier_scores,delivery_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,quality_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,cost_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,capacity_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,compliance_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,disruption_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,reliability_score,DECIMAL,YES,,percent,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. Numeric; non-negative unless variance; score/rate within documented range.
+supplier_scores,risk_band,VARCHAR,YES,"HIGH_RISK,WATCH,RELIABLE",,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+supplier_scores,weights_json,JSON,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+supplier_scores,explanation_json,JSON,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,state_event_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,entity_type,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,entity_id,VARCHAR,YES,,,YES,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,from_state,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,to_state,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,event_time,TIMESTAMP,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings. ISO-8601; enforce domain date ordering.
+state_events,actor,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.
+state_events,reason,VARCHAR,YES,,,NO,Must reference existing parent ID where applicable; immutable ID; trim strings.

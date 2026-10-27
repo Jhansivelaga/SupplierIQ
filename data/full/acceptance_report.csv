@@ -1,0 +1,45 @@
+criterion,status,details
+required artifacts exist,PASS,
+suppliers.csv exact target count,PASS,actual=1000; expected=1000
+purchase_orders.csv exact target count,PASS,actual=10000; expected=10000
+shipments.csv exact target count,PASS,actual=15000; expected=15000
+inspections.csv exact target count,PASS,actual=20000; expected=20000
+supplier tier variation,PASS,"['PREFERRED', 'STANDARD', 'STRATEGIC']"
+lead-time variation,PASS,unique delivery durations=12
+quality incidents represented,PASS,min=0.0000; max=0.1600
+missing risk/performance cohort represented,PASS,risk records=966; suppliers=1000
+supplier IDs unique,PASS,
+site IDs unique,PASS,
+PO IDs unique,PASS,
+shipment IDs unique,PASS,
+inspection IDs unique,PASS,
+PO supplier/site/contract joins valid,PASS,
+PO lifecycle dates valid,PASS,
+shipment joins and site ownership valid,PASS,
+shipment date ordering valid,PASS,
+baseline risk signals have source and timestamp,PASS,
+baseline shipments reference existing POs,PASS,
+baseline supplier-site ownership is consistent,PASS,
+inspection joins valid,PASS,
+inspection bounds and results valid,PASS,
+normal and boundary inspection cases represented,PASS,
+invoice arithmetic reconciles,PASS,
+PO line totals reconcile,PASS,
+one score per supplier,PASS,
+score weighted formula reconciles,PASS,
+fixed historical score cutoff documented,PASS,
+"score explanation includes weights, cutoff and denominators",PASS,
+delivery and quality denominators are explicit,PASS,
+missing data treatment is explicit,PASS,
+scores exclude future-dated source observations,PASS,
+all five required anomaly labels exist,PASS,"['DELIVERY_BEFORE_DISPATCH', 'FUTURE_DATA_LEAKAGE', 'MISSING_RISK_SOURCE_OR_TIME', 'SHIPMENT_WITHOUT_PO', 'SUPPLIER_SITE_MISMATCH']"
+challenge shipment failures are actually invalid,PASS,
+challenge risk missing source/time present,PASS,
+challenge future-data case present,PASS,
+rule-based challenge detection covers all five scenarios,PASS,"['DELIVERY_BEFORE_DISPATCH', 'FUTURE_DATA_LEAKAGE', 'MISSING_RISK_SOURCE_OR_TIME', 'SHIPMENT_WITHOUT_PO', 'SUPPLIER_SITE_MISMATCH']"
+challenge anomalies isolated from baseline,PASS,
+state events reference known entities,PASS,
+state events have timestamps and transitions,PASS,
+ground truth labels are separate and documented,PASS,
+source manifest SHA-256 hashes verify,PASS,
+documentation states synthetic provenance and lawful origin,PASS,documentation should explicitly state no real supplier/person data is used

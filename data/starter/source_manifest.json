@@ -1,0 +1,172 @@
+{
+  "generator": "tools/generate_synthetic_data.py",
+  "seed": 20261022,
+  "scale": 0.01,
+  "generated_at": "fixed-by-seed; intentionally omitted wall-clock timestamp",
+  "baseline_counts": {
+    "suppliers.csv": 10,
+    "sites.csv": 13,
+    "contracts.csv": 10,
+    "purchase_orders.csv": 100,
+    "po_lines.csv": 100,
+    "shipments.csv": 150,
+    "delivery_events.csv": 300,
+    "inspections.csv": 200,
+    "invoices.csv": 100,
+    "risk_signals.csv": 10,
+    "supplier_scores.csv": 10,
+    "state_events.csv": 10
+  },
+  "anomaly_cases": 5,
+  "weights": {
+    "delivery": 0.25,
+    "quality": 0.25,
+    "cost": 0.15,
+    "capacity": 0.15,
+    "compliance": 0.1,
+    "disruption": 0.1
+  },
+  "risk_bands": {
+    "HIGH_RISK": "score < 60",
+    "WATCH": "60 <= score < 80",
+    "RELIABLE": "score >= 80"
+  },
+  "files": {
+    "challenge_risk_signals.csv": {
+      "sha256": "cbc9e0a591e030938837b06ccc684cf2670a1e69875200012e2f59b8661ab2df",
+      "bytes": 111
+    },
+    "challenge_risk_signals.json": {
+      "sha256": "f2c6d46f0e622cb4ed92d0caf8f6e99f0af7c8e541a820c7c5ec90c5ffd996bd",
+      "bytes": 179
+    },
+    "challenge_shipments.csv": {
+      "sha256": "14fe1c69a6c31f53bd9397c8a2cddca9bb1dc96284ad4b1cbf38a0443cb279b1",
+      "bytes": 354
+    },
+    "challenge_shipments.json": {
+      "sha256": "df7a649631c5338aec70685a929a762d1452221f60c7440c23a375f8f769f19d",
+      "bytes": 732
+    },
+    "challenge_supplier_scores.csv": {
+      "sha256": "bcca48cdcae4466fa3e7feb9fb348935316d6dac9b568b0aac0fda69a43c87f3",
+      "bytes": 140
+    },
+    "challenge_supplier_scores.json": {
+      "sha256": "a5f999938a9dd4709b4c0395d4e5aa7051d83ded3a4c4838d40eafe196203fb0",
+      "bytes": 198
+    },
+    "contracts.csv": {
+      "sha256": "a3569f32f382a8b25b377e85107253374becd4977dc768719fc135fdcd01ae49",
+      "bytes": 1110
+    },
+    "contracts.json": {
+      "sha256": "da257214ec011e35da3d670df027f375f7a14cac02a77854a1596a9e2e2fc64b",
+      "bytes": 2968
+    },
+    "data_dictionary.csv": {
+      "sha256": "d099e255bb8d2b62162c84a9585a4339d09ec2f8fe952fac548bf7332bcb880b",
+      "bytes": 15578
+    },
+    "delivery_events.csv": {
+      "sha256": "504234e4123b2d7984cb20f287c6d3a9c2d3fd9fece46055e7d25d2224835a5b",
+      "bytes": 29319
+    },
+    "delivery_events.json": {
+      "sha256": "25ee9e82c1945703a980ed6e886c4a4eeb50830147f9caf3fb6b0317811abce8",
+      "bytes": 69752
+    },
+    "ground_truth.csv": {
+      "sha256": "07e81d7012ec946ab013f312a5d06fd202e69747d9df4a4e1dd3117a57a82200",
+      "bytes": 574
+    },
+    "ground_truth.json": {
+      "sha256": "fd41ae2f86c7f2c161cf1a4bc392fd76dca115f66a72dbc6a4207ce2cd309514",
+      "bytes": 1144
+    },
+    "inspections.csv": {
+      "sha256": "040d13158e1f85f206329e0dbe8eb8e439a06ba2716a9bcbbbb13a98856b8676",
+      "bytes": 15915
+    },
+    "inspections.json": {
+      "sha256": "28d5bb977f5918b764f3363ca53971bb65f79c6b37bf7f528e81bafb8efac2be",
+      "bytes": 50030
+    },
+    "invoices.csv": {
+      "sha256": "86d6780242fac11c0023e4e6f5588ead6a51defb9a9c784ede5a3d20082a3ac6",
+      "bytes": 9676
+    },
+    "invoices.json": {
+      "sha256": "e96db526b4696af5cd3578dc59a73e80cb90ce2d3c5cdbc4f6d5b8b60eef9b0d",
+      "bytes": 31465
+    },
+    "po_lines.csv": {
+      "sha256": "0fc0e824a5d59b4ed29d2ecba8ccc89ce809d445cc61c727b5e9cecc0be3def6",
+      "bytes": 6593
+    },
+    "po_lines.json": {
+      "sha256": "2c1789fdd7a8a0a7ffbe9e4e6d3e2e4eea4ea6358a915d4ef78baea641b5b37f",
+      "bytes": 21418
+    },
+    "purchase_orders.csv": {
+      "sha256": "c69d16d0ba27e7252fabde07891604a2fcc244c86704d10d541f5f470bb10ada",
+      "bytes": 11256
+    },
+    "purchase_orders.json": {
+      "sha256": "fb0bef192c434b620e6da0993234251fa87ede74b4e468e2eadb082857fd4c7b",
+      "bytes": 32350
+    },
+    "risk_signals.csv": {
+      "sha256": "111dd80050320c743851fb7b793e64c8948eeaf01251cad3ab053c3cd101513a",
+      "bytes": 1576
+    },
+    "risk_signals.json": {
+      "sha256": "afe1f306c3365f9fb5130fe41de8799883b386712151d3da0ae3bf8997cbc88b",
+      "bytes": 3239
+    },
+    "seed_data.sql": {
+      "sha256": "cfdc7a32e69baf5a2b3f831e0d50850543ee4e4ea8a080e713d219773a972be0",
+      "bytes": 377705
+    },
+    "shipments.csv": {
+      "sha256": "a1b7ff7e1ef93d9ec8a54cd138b7d748e44baee365951dfb28d16e16c70284e8",
+      "bytes": 16288
+    },
+    "shipments.json": {
+      "sha256": "7cad3680901e11c66040b82c4ebdb52e9b668bc6a905801171f3fdedd6739808",
+      "bytes": 45141
+    },
+    "sites.csv": {
+      "sha256": "192939f8063a594f5d19d9255a58d726f9ee5b2c35be354fdf0144b82f7a53a0",
+      "bytes": 983
+    },
+    "sites.json": {
+      "sha256": "ec6d0f2aa11de76eb9139e2f9e0076c76435f78bb12b1bd2b3191a039eaae09b",
+      "bytes": 2813
+    },
+    "state_events.csv": {
+      "sha256": "2265845e87346f70653939a3da20237ae1be1d9e10db20511fe0f5a6110c1b53",
+      "bytes": 1222
+    },
+    "state_events.json": {
+      "sha256": "12d41ff4c51eec88e9dafef754360ef0a6d3648433c22100943499a51410bf35",
+      "bytes": 2822
+    },
+    "supplier_scores.csv": {
+      "sha256": "6ee07d79b7d142ba7845dcbc1eac52d2e4749595cb23b2b83310cd8f931ef822",
+      "bytes": 3430
+    },
+    "supplier_scores.json": {
+      "sha256": "267216b944b179baa9a0e08e64d6c3fdf61f27fb75222038d0ca8c82606da24c",
+      "bytes": 6232
+    },
+    "suppliers.csv": {
+      "sha256": "b89116c9a07420c93d554acc8c69e676badba0e801c24d18bc5dd07aefaf9a59",
+      "bytes": 805
+    },
+    "suppliers.json": {
+      "sha256": "7bddf65dae76413ae42ae78e27b59cc40ed874d6c27699fbd050cd7a56515290",
+      "bytes": 2414
+    }
+  }
+}

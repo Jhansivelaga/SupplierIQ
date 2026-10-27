@@ -1,0 +1,9 @@
+[
+  {
+    "score_id": "SCORE-ANOM-000001",
+    "supplier_id": "SUP-000001",
+    "as_of_date": "2026-01-01",
+    "source_observation_time": "2026-02-01",
+    "issue_type": "FUTURE_DATA_LEAKAGE"
+  }
+]

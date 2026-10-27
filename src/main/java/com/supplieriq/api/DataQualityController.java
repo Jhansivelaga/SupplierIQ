@@ -1,0 +1,12 @@
+package com.supplieriq.api;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.bind.annotation.*;
+import java.util.*;
+@RestController @RequestMapping("/api") @CrossOrigin
+public class DataQualityController {
+ private final JdbcTemplate db;
+ public DataQualityController(JdbcTemplate db){this.db=db;}
+ @GetMapping("/data-quality/issues") public List<Map<String,Object>> issues(@RequestParam(defaultValue="false") boolean groundTruth){return db.queryForList("SELECT issue_id,issue_type,entity_type,entity_id,severity,issue_message,ground_truth,detected_at FROM data_quality_issues WHERE (?=false OR ground_truth=true) ORDER BY detected_at DESC, issue_id DESC",groundTruth);}
+ @GetMapping("/data-quality/summary") public Map<String,Object> summary(){Map<String,Object> m=new LinkedHashMap<>();for(String t:List.of("supplier_master","sites","contracts","purchase_orders","po_lines","shipments","delivery_events","inspections","invoices","risk_signals","supplier_score_history","state_events","ground_truth","data_quality_issues")){try{m.put(t,db.queryForObject("SELECT COUNT(*) FROM "+t,Integer.class));}catch(Exception e){m.put(t,"unavailable");}}m.put("relationshipChecks",db.queryForObject("SELECT COUNT(*) FROM data_quality_issues",Integer.class));return m;}
+ @GetMapping("/data-quality/validation") public Map<String,Object> validation(){Map<String,Object> m=new LinkedHashMap<>();m.put("poSupplierSiteMismatch",db.queryForObject("SELECT COUNT(*) FROM purchase_orders p JOIN sites s ON s.site_id=p.site_id WHERE p.supplier_id<>s.supplier_id",Integer.class));m.put("poSupplierContractMismatch",db.queryForObject("SELECT COUNT(*) FROM purchase_orders p JOIN contracts c ON c.contract_id=p.contract_id WHERE p.supplier_id<>c.supplier_id",Integer.class));m.put("shipmentSupplierSiteMismatch",db.queryForObject("SELECT COUNT(*) FROM shipments sh JOIN sites s ON s.site_id=sh.site_id WHERE sh.supplier_id<>s.supplier_id",Integer.class));m.put("shipmentSupplierPoMismatch",db.queryForObject("SELECT COUNT(*) FROM shipments sh JOIN purchase_orders p ON p.po_id=sh.po_id WHERE sh.supplier_id<>p.supplier_id",Integer.class));m.put("deliveryBeforeDispatch",db.queryForObject("SELECT COUNT(*) FROM shipments WHERE delivery_date IS NOT NULL AND delivery_date<dispatch_date",Integer.class));m.put("invalidContractDates",db.queryForObject("SELECT COUNT(*) FROM contracts WHERE end_date<start_date",Integer.class));m.put("invalidPoDates",db.queryForObject("SELECT COUNT(*) FROM purchase_orders WHERE expected_date<order_date",Integer.class));return m;}
+}

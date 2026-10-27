@@ -1,0 +1,6 @@
+entity_type,entity_id,issue_type,expected_detection,ground_truth_label
+Shipment,SHP-ANOM-000001,SHIPMENT_WITHOUT_PO,shipment references nonexistent PO,ANOMALY
+Shipment,SHP-ANOM-000002,DELIVERY_BEFORE_DISPATCH,delivery_date < dispatch_date,ANOMALY
+SupplierScore,SCORE-ANOM-000001,FUTURE_DATA_LEAKAGE,score as_of_date precedes a source observation used in score,ANOMALY
+RiskSignal,RSK-ANOM-000001,MISSING_RISK_SOURCE_OR_TIME,source or observed_at is null/blank,ANOMALY
+Shipment,SHP-ANOM-000003,SUPPLIER_SITE_MISMATCH,shipment supplier_id differs from site owner,ANOMALY

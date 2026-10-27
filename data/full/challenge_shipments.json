@@ -1,0 +1,29 @@
+[
+  {
+    "shipment_id": "SHP-ANOM-000001",
+    "po_id": "PO-NOT-FOUND",
+    "supplier_id": "SUP-000001",
+    "site_id": "SITE-SUP-000001-01",
+    "dispatch_date": "2026-10-01",
+    "delivery_date": "2026-10-03",
+    "status": "DELIVERED"
+  },
+  {
+    "shipment_id": "SHP-ANOM-000002",
+    "po_id": "PO-2026-000001",
+    "supplier_id": "SUP-000001",
+    "site_id": "SITE-SUP-000001-01",
+    "dispatch_date": "2026-10-05",
+    "delivery_date": "2026-10-02",
+    "status": "DELIVERED"
+  },
+  {
+    "shipment_id": "SHP-ANOM-000003",
+    "po_id": "PO-2026-000001",
+    "supplier_id": "SUP-000001",
+    "site_id": "SITE-SUP-000002-01",
+    "dispatch_date": "2026-10-01",
+    "delivery_date": "2026-10-03",
+    "status": "DELIVERED"
+  }
+]

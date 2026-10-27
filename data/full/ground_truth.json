@@ -1,0 +1,37 @@
+[
+  {
+    "entity_type": "Shipment",
+    "entity_id": "SHP-ANOM-000001",
+    "issue_type": "SHIPMENT_WITHOUT_PO",
+    "expected_detection": "shipment references nonexistent PO",
+    "ground_truth_label": "ANOMALY"
+  },
+  {
+    "entity_type": "Shipment",
+    "entity_id": "SHP-ANOM-000002",
+    "issue_type": "DELIVERY_BEFORE_DISPATCH",
+    "expected_detection": "delivery_date < dispatch_date",
+    "ground_truth_label": "ANOMALY"
+  },
+  {
+    "entity_type": "SupplierScore",
+    "entity_id": "SCORE-ANOM-000001",
+    "issue_type": "FUTURE_DATA_LEAKAGE",
+    "expected_detection": "score as_of_date precedes a source observation used in score",
+    "ground_truth_label": "ANOMALY"
+  },
+  {
+    "entity_type": "RiskSignal",
+    "entity_id": "RSK-ANOM-000001",
+    "issue_type": "MISSING_RISK_SOURCE_OR_TIME",
+    "expected_detection": "source or observed_at is null/blank",
+    "ground_truth_label": "ANOMALY"
+  },
+  {
+    "entity_type": "Shipment",
+    "entity_id": "SHP-ANOM-000003",
+    "issue_type": "SUPPLIER_SITE_MISMATCH",
+    "expected_detection": "shipment supplier_id differs from site owner",
+    "ground_truth_label": "ANOMALY"
+  }
+]

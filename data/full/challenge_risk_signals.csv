@@ -1,0 +1,2 @@
+risk_signal_id,supplier_id,risk_type,severity,source,observed_at
+RSK-ANOM-000001,SUP-000001,TRANSPORT,HIGH,,
