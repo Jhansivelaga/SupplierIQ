@@ -5,6 +5,11 @@ SupplierIQ is a Java Spring Boot and MySQL project that analyzes supplier reliab
 **Project status:** Implemented demo  
 **Tech stack:** Java 21 · Spring Boot · MySQL 8 · JDBC · Maven · HTML · CSS · JavaScript · Python
 
+## Dashboard Preview
+
+![SupplierIQ Dashboard](screenshots/supplieriq-dashboard.png)
+
+
 ## Key Features
 
 - **Supplier reliability dashboard:** View supplier performance scores and risk categories.
